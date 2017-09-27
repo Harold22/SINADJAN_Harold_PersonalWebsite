@@ -8,30 +8,37 @@
 header {
     position: absolute;
     width: 100%;
-    background: url(back.png);
+    background: url(backg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%; 
+    }
+
+#WelcomePage{
     text-align: center;
-    font-size: 30px;
-    color: #000000;
-
+    font-size: 42px;
+    color: #2B49F1;
 }
-
-nav {
-    padding: 22% 14%;
+#Welcome {
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-style: italic;
+    text-shadow: 4px 5px rgb(0, 0, 0);
+}
+#buttonNavigation {
+    padding: 33% 24%;
    float: left;
 }
-
-nav ul {
+.Buttons {
     margin: auto;
     list-style: none;   
     background: rgba(121, 118, 118, 0.54);
-    border-radius: 40px;
+    border-radius: 50px;
     text-align: center;
-    width: 1000px;
-    height: 105px;
+    width: 710px;
+    height: 65px;
 }
 
 nav ul li {
@@ -40,18 +47,18 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 30px 40px;
+    padding: 16px 30px;
     color:black;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     display: block;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.3s ease;
     
     
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(207, 206, 209, 0.68);
 
 
 }
