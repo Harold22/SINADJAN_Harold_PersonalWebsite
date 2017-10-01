@@ -6,14 +6,23 @@
 }
 
 header {
+    animation: change 70s linear infinite;
     position: absolute;
     width: 100%;
-    background: url(backg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%; 
+    
     }
+@keyframes change {
+    0%{background: url(Animate1.png)}
+    25%{background: url(Animate2.png)}
+    50%{background: url(Animate3.png)}
+    75%{background: url(Animate4.png)}
+    100%{background: url(Animate5.png)}
+
+}
 
 #WelcomePage{
     text-align: center;
@@ -28,12 +37,12 @@ header {
     text-shadow: 4px 5px rgb(0, 0, 0);
 }
 #buttonNavigation {
-    padding: 28% 24%;
-    float: left;
+    padding: 29% 24%;
+    position: fixed;
 }
-.Buttons {
+#Buttons {
     list-style: none;   
-    background: rgba(121, 118, 118, 0.73);
+    background: rgba(99, 99, 99, 0.73);
     border-radius: 50px;
     text-align: center;
     width: 710px;
@@ -45,6 +54,7 @@ header {
 .buttonlist {
     display: inline-block;
     
+    
 }
 
 .buttonsdesign {
@@ -54,12 +64,13 @@ header {
     font-size: 30px;
     display: block;
     transition: background-color 0.3s ease;
+    
       
 }
 
-.buttonsdesign:hover, .buttonsdesign:focus {
+.buttonsdesign:hover {
     background-color: rgba(207, 206, 209, 0.68);
-    outline: none;
+    
 }
 
 #footer {
@@ -69,6 +80,7 @@ header {
     background-color: rgba(255, 255, 255, 0.73);
     height: 55px;
     width: 100%;
+    
    
 }
 .footerwords {
@@ -77,31 +89,58 @@ header {
     color: #000000;
     font-size: 15px;
     display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, serif;
 
 }
  #profileright {
     margin: 0 auto;
-    height: 73%;
+    height: 50%;
     width: 60%;
     position: relative;
     right: 50px;
     text-align: center;
-    background: url(profileback.png);
+    background: url(Animate6.png);
     float: right;
+    border: 20px solid rgba(128, 0, 128, 0.59);
  }
- .profileheadercontainer{
+ .profilerightheadercontainer{
      padding: 15px;
-     background-color: rgb(49, 45, 45);
+     background-color: rgb(21, 138, 180);
      margin: 0 auto;
      position: relative;
-     color: white;
+     color: #000000;
      font-size: 30px;
+     border: 5px solid rgba(0, 0, 255, 0.71);
  }
- .profilecontent {
-    text-align: center;
+ .profilerightcontent {
+    
+    text-align: left;
     color: #FFFFFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    border: 2px solid orange;
     
 }
+.profilerightcontentcolor{
+    color:#3CFF00;
+
+}
+.profileleftbutton {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 auto;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    left: 40px;
+    border-radius: 5px;
+    padding: 5% 10%; 
+}
+.profileleftbutton:hover {
+    background-color: #347CA5;
+    color: #FFFFFF;
+}
+
  
