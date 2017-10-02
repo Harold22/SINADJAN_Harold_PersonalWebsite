@@ -28,6 +28,9 @@ header {
     text-align: center;
     font-size: 42px;
     color: #000000;
+    position: relative;
+    top: 120px;
+
 }
 #Welcome {
     text-align: center;
@@ -35,19 +38,30 @@ header {
     color: #FFFFFF;
     font-style: italic;
     text-shadow: 4px 5px rgb(0, 0, 0);
-}
-#buttonNavigation {
-    padding: 29% 24%;
     position: fixed;
+    top: 0;
+    margin: 0 auto;
+    background-color: rgb(3, 44, 49);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+
+
+    
 }
-#Buttons {
+.buttonNavigation {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 325px;
+    
+}
+.Buttons {
     list-style: none;   
     background: rgba(99, 99, 99, 0.73);
     border-radius: 50px;
     text-align: center;
     width: 710px;
     height: 65px;
-    position: fixed;
     
 }
 
@@ -58,12 +72,13 @@ header {
 }
 
 .buttonsdesign {
-    padding: 16px 30px;
+    padding: 15px 30px;
     color:black;
     text-decoration: none;
     font-size: 30px;
     display: block;
     transition: background-color 0.3s ease;
+
     
       
 }
@@ -101,7 +116,8 @@ header {
     text-align: center;
     background: url(Animate6.png);
     float: right;
-    border: 20px solid rgba(128, 0, 128, 0.59);
+    border: 20px solid rgba(99, 89, 89, 0.69);
+    margin-top: 100px;
  }
  .profilerightheadercontainer{
      padding: 15px;
@@ -110,37 +126,69 @@ header {
      position: relative;
      color: #000000;
      font-size: 30px;
-     border: 5px solid rgba(0, 0, 255, 0.71);
+     border: 5px solid rgba(21, 130, 134, 0.71);
+     
  }
  .profilerightcontent {
     
     text-align: left;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, serif;
-    border: 2px solid orange;
+    border: 2px solid rgb(133, 117, 124);
     
 }
 .profilerightcontentcolor{
     color:#3CFF00;
 
 }
+a {
+    text-decoration: none;
+}
 .profileleftbutton {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     margin: 0 auto;
     cursor: pointer;
     float: left;
-    position: relative;
-    left: 40px;
     border-radius: 5px;
-    padding: 5% 10%; 
+    position: absolute;
+
 }
 .profileleftbutton:hover {
     background-color: #347CA5;
     color: #FFFFFF;
 }
-
+#AllInfo {
+    background-color: white;
+    color:black;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    border-radius: 5px;
+    height: 55%;
+    width: 80%;
+    border: 10px solid rgba(20, 117, 243, 0.87);
+    margin-top: 100px;
+       
+}
+.AllInfoinside {
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid blue;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.imagecircle {
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    margin-left: 38%;
+    margin-top: 10%;
+}
  
