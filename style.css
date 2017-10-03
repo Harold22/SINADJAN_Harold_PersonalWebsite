@@ -146,20 +146,15 @@ a {
 }
 .profileleftbutton {
     background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    margin: 0 auto;
-    cursor: pointer;
-    float: left;
-    border-radius: 5px;
-    position: absolute;
-
+    height: 50px;
+    width: 50px;
 }
 .profileleftbutton:hover {
     background-color: #347CA5;
     color: #FFFFFF;
+
 }
+
 #AllInfo {
     background-color: white;
     color:black;
@@ -191,4 +186,58 @@ a {
     margin-left: 38%;
     margin-top: 10%;
 }
+.ContactInfointro {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    text-align: center;
+}
+.contactdetails {
+    text-align: left;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    border: 2px solid rgb(133, 117, 124);
+}
+.contactcontentcolor {
+    color: #FF0000;
+}
+.contactFBIcons {
+    margin-left: 37%;
+    height: 40px;
+    width: 40px;
+    
+}
+.contactTWIIcons {
+    margin-left: 35px;
+    height: 40px;
+    width: 40px;
+    
+}
+.contactINSTAIcons {
+    margin-left: 35px;
+    height: 40px;
+    width: 40px;
+    
+}
+.contactYTIcons {
+    margin-left: 35px;
+    height: 40px;
+    width: 40px;
+    
+} 
+.aboutimage {
+    float: left;
+    width: 25%;
+    height: 80%;
+}
+.aboutcontent {
+    margin-left: 30%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
+    margin-right: 5px;
+
+}
+
+ 
  
