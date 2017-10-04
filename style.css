@@ -193,11 +193,7 @@ a {
     font-size: 25px;
     
 }
-.profileleftbutton:hover {
-    background-color: #347CA5;
-    color: #FFFFFF;
 
-}
 .profileleftcontainer {
     float: left;
     position: relative;
@@ -291,6 +287,43 @@ a {
     margin-right: 5px;
 
 }
+.skillsinfohead {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.skillsinfo1 {
+   color:#FFFFFF;
+   text-align: center;
+}
+.skills1 {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills2 {
+    color:#000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skillsinfo2 {
+    color:#000000;
+    text-align: center;
+ }
+.skillsinfotableleft {
+    background: rgba(0, 0, 0, 0.79);
+    height: 71%;
+    width: 50%;
+    float: left;
+    
+
+}
+.skillsinforight {
+    background: rgba(255, 255, 255, 0.79);
+    height: 71%;
+    width: 50%;
+    float: left;
+
+}
+
 
  
  
