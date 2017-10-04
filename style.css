@@ -206,7 +206,7 @@ a {
     font-size: 25px;
     
 }
-.profileleftbutton1:hover {
+.profileleftbutton1:hover:not(#action) {
     border: 2px solid #66FF00;
  
 }
@@ -226,9 +226,8 @@ a {
     border: 2px solid #66FF00;
  
 }
-
-.action {
-    border: 2px solid #00FF80;  
+#action {
+    color:#00FF15;
 }
 .profileleftcontainer {
     float: left;
