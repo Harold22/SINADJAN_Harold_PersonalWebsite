@@ -206,7 +206,17 @@ a {
     font-size: 25px;
     
 }
-.profileleftbutton1:hover:not(#action) {
+.profileleftbutton6 {
+    float: left;
+    margin-top: 2px;
+    background-color: #4CACAF;
+    height: 65px;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.profileleftbutton1:hover {
     border: 2px solid #66FF00;
  
 }
@@ -376,7 +386,24 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+.Photos {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 65%;
+    height: 50%;
+    float: right;
+    position: relative;
+    margin-top: 9%;
+    margin-right: 50px;
+}
+.image:hover {
+    border: 2px solid #00CCFF;
+}
 
-
+.image {
+    height: 100px;
+    width: 100px;
+}
  
  
