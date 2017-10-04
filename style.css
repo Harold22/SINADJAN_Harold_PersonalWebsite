@@ -216,6 +216,10 @@ a {
     border: 2px solid #66FF00;
  
 }
+
+.action {
+    border: 2px solid #00FF80;  
+}
 .profileleftcontainer {
     float: left;
     position: relative;
