@@ -16,11 +16,21 @@ header {
     
     }
 @keyframes change {
-    0%{background: url(Animate1.png)}
-    25%{background: url(Animate2.png)}
-    50%{background: url(Animate3.png)}
-    75%{background: url(Animate4.png)}
-    100%{background: url(Animate5.png)}
+    0%{background:linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)), url(Animate1.png)}
+    25%{background:linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)), url(Animate2.png)}
+    50%{background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)), url(Animate3.png)}
+    75%{background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)), url(Animate4.png)}
+    100%{background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)), url(Animate5.png)}
 
 }
 
